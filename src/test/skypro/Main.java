@@ -15,6 +15,7 @@ public class Main {
             System.out.print(i+" ");
         }
         System.out.println();
+        System.out.println();
 
         // задание 2
         int firstFridayOfMonth = 4;
@@ -40,12 +41,6 @@ public class Main {
                 System.out.println("Комета пролетает в " + comet + " году.");
             }
         }
-        System.out.println();
-
-        // задание 4
-        System.out.println();
-
-        // задание 5
         System.out.println();
     }
 }
