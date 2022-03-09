@@ -27,7 +27,19 @@ public class Main {
         System.out.println();
 
         // задание 3
-
+        int cometFirstDate = 0;
+        int cometInterval = 79;
+        int yearNow = 2022;
+        int minYear = yearNow - 200;
+        int maxYear = yearNow + 100;
+        for (int comet = cometFirstDate;; comet+=cometInterval){
+            if (comet>maxYear) {
+                break;
+            }
+            if (comet>minYear){
+                System.out.println("Комета пролетает в " + comet + " году.");
+            }
+        }
         System.out.println();
 
         // задание 4
